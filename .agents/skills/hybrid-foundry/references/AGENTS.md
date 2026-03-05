@@ -89,6 +89,8 @@ Similar patterns exist for JavaScript/TypeScript, C#, and Java.
 2. **Build your own MCP server** — Use TypeScript or Python MCP SDKs
 3. **MCP authentication** — Configure auth for secured MCP endpoints
 
+> **Tip:** For searching internal documents, also consider **Foundry IQ** (see below) which provides built-in RAG without running your own MCP server. Use MCP when you need custom tool logic or integration with external systems; use Foundry IQ when you primarily need document grounding.
+
 ### Tool Governance & Policies
 - Route MCP tool calls through an **AI gateway** for rate limiting, auth, logging, and content inspection
 - Maintain a curated **tool catalog** of approved tools (built-in and custom)

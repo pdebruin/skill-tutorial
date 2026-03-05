@@ -1,0 +1,5 @@
+# Third-party skills (installed, not authored here)
+.agents/skills/skill-creator/
+
+# Eval workspaces (generated outputs, not source)
+hybrid-foundry-workspace/
