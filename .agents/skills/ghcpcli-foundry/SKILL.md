@@ -1,5 +1,5 @@
 ---
-name: microsoft-foundry
+name: ghcpcli-foundry
 description: >-
   Guide for working with Microsoft Foundry (Azure AI Foundry) — the unified enterprise AI platform
   for building, deploying, and governing AI agents and applications at scale. Use when the user

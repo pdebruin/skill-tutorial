@@ -1,5 +1,5 @@
 ---
-name: ms-foundry
+name: mcpsc-foundry
 description: >
   Plan, create, configure, and operate Microsoft Foundry resources, projects, models, and agents.
   Use when asked about setting up Foundry (CLI or portal), choosing regions, assigning roles,

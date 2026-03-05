@@ -12,10 +12,10 @@ This skill uses a **hybrid** pattern — a rich hub SKILL.md with modular refere
 
 | Approach | Tradeoff | Example |
 |----------|----------|---------|
-| **MCP-first** (thin hub, no inline content) | Low token cost but zero self-sufficiency — useless if MCP tools are unavailable | `foundry/` |
-| **Modular hub** (thin hub + refs) | Low activation cost but needs an extra fetch for even basic questions | `microsoft-foundry/` |
-| **Monolith** (everything inline) | Self-sufficient but high token cost on every activation; hard to maintain at scale | `ms-foundry/` |
-| **Doc index** (curated URL catalog) | Massive URL coverage but zero inline knowledge; every answer requires a network fetch | `azure-microsoft-foundry/` |
+| **MCP-first** (thin hub, no inline content) | Low token cost but zero self-sufficiency — useless if MCP tools are unavailable | `m365-foundry/` |
+| **Modular hub** (thin hub + refs) | Low activation cost but needs an extra fetch for even basic questions | `ghcpcli-foundry/` |
+| **Monolith** (everything inline) | Self-sufficient but high token cost on every activation; hard to maintain at scale | `docs2skills-foundry/` |
+| **Doc index** (curated URL catalog) | Massive URL coverage but zero inline knowledge; every answer requires a network fetch | `mcpsc-foundry/` |
 | **Hybrid** (rich hub + refs) ✅ | Hub handles ~80% of setup questions inline; refs provide depth on demand | `hybrid-foundry/` |
 
 ### Why hybrid wins
@@ -81,12 +81,12 @@ hybrid-foundry/
     ├── ARCHITECTURE.md      (85 lines) — Platform components, terminology, hierarchy
     ├── RESOURCES-AND-SETUP.md (60 lines) — Portal, azd, Bicep, VS Code, prerequisites
     ├── MODELS.md           (112 lines) — Catalog, deployment types, router, fine-tuning
-    ├── AGENTS.md           (164 lines) — Agent types, tools, MCP, governance, publishing
+    ├── AGENTS.md           (166 lines) — Agent types, tools, MCP, governance, publishing
     ├── EVALUATION-AND-OBSERVABILITY.md (130 lines) — Evaluators, tracing, monitoring, CI/CD
     └── GOVERNANCE.md       (108 lines) — Control plane, security, compliance, cost
 ```
 
-**Total**: 889 lines across 7 files (230 hub + 659 references).
+**Total**: 891 lines across 7 files (230 hub + 661 references).
 
 ## Maintenance Notes
 

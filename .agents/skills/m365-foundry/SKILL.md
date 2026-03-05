@@ -1,5 +1,5 @@
 ---
-name: foundry
+name: m365-foundry
 description: >
   Plan, create, configure, and operate Microsoft Foundry resources and projects using Azure CLI,
   SDKs, and Learn MCP Server. Use when asked about setting up Foundry, choosing regions and roles,
