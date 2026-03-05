@@ -13,7 +13,7 @@ compatibility: >-
   Works with Python, JavaScript/TypeScript, C#, Java SDKs.
   Optionally uses Azure Developer CLI (azd) and Microsoft Learn MCP Server for live doc lookups.
 metadata:
-  author: m365 & ghcpcli
+  author: all
   version: "1.0"
 allowed-tools: microsoft_docs_search microsoft_docs_fetch microsoft_code_sample_search
 ---
