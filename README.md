@@ -1,4 +1,4 @@
-# skill-tutorial
+# foundry-skill
 
 This repo contains multiple flavors of a skill from various sources, combined into a good skill, and a creator skill. 
 
